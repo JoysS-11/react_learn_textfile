@@ -1,0 +1,50 @@
+React JS:
+
+What is react:
+    * React is an open source front-end Javascript library for building user interfaces.
+    * React is used to build single-page applications.
+    * React allow us to create reusable UI components.
+
+JSX:
+    * JSX stands for JavaScript XML.
+    * JSX allow us to write HTML in React.
+    * JSX makes it easier to create React elements and components visually.
+
+
+React ES6:
+    * ES6 stands for ECMAScript 6 (European Computer Manufacturers Association).
+    * React uses ES6 features like classes, arrow functions and destructuring to write modern , clean and efficient code.
+
+Components:
+    * Components are independent and reusable bits of code for create the user interface.
+    * We can use multiple components into a single component.
+    Components are two types:
+    * Class components:
+        A class compoent must include the extends React.Compoent statement.
+        Use this.state for managing local state and lifecycle methods.
+        This component requires a render() method, this method returns HTML.
+    * Function componets:
+        A function component literally defined as Javascript functions.
+        Functional compoent also returns HTML.
+        Primarily used in modern React due to simplicity and the power of hooks.
+
+Props:
+    * Props stands for Properties.
+    * Props are used to pass the data from a parent component to child component.
+    * They are read only and cannot be modeified by receiving component.
+    * Props are immutable.
+    * Follow a undirectional data flow parent to child.
+
+State:
+    * State is a built-in object in React used to store dynamic data that affects a component's rendering.
+    * Unlike Props, state is mutable and can be updated using the setState function in class components or useState Hook in functional components.
+    * Change in state update the UI automatically.
+
+Event:
+    * React events handle user interactions like clicks, typing or form submissions.
+    * They are similar to HTML events but use camelCale name.
+    * Use the event object to access event details.
+
+Lists:
+    * Lists in React are used to render multiple items dynamically, typically using the map() function.
+    * Each list item must have a unique key prop to help React identify and update items effiently.
